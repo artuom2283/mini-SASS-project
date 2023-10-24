@@ -1,0 +1,54 @@
+$height: 50px;
+$width: 100%;
+$color: #000;
+.navbar {
+  background-color: bisque;
+  width: $width;
+  height: $height;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+.navbar_menu li a {
+  display: flex;
+  font-size: 1.4rem;
+  height: $height;
+  color: $color;
+  opacity: 0.8;
+  text-decoration: none;
+  padding: 40px;
+  transition: all .07s ease-in-out;
+}
+.navbar_menu li a:hover {
+  opacity: 1;
+  color: grey;
+}
+.navbar_menu li {
+  display: inline-block;
+}
+.navbar_menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.navbar_wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.navbar_coat_of_arms {
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: $color;
+  margin-left: 30px;
+}
+
+.navbar_coat_of_arms:hover {
+ color: coral;
+ transition: all .07s ease-in-out;
+}
+
+.container0 {
+  height: $height;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }

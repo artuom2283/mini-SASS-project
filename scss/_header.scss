@@ -1,0 +1,25 @@
+.header {
+  margin-top: 10px;
+  position: relative;
+}
+.coat_of_arms {
+  z-index: 1;
+  height: 170px;
+  width: 130px;
+  position: fixed;
+  top: 7.3%;
+  margin-left: 91%;
+  margin-top: 33%;
+}
+.back_header {
+  height: 300px;
+  width: 100%;
+}
+.slogan {
+  position: absolute;
+  font-size: 15px;
+  top: 33%;
+  margin-left: 450px;
+  font-family: 'Noto Sans', sans-serif;
+  color: coral;
+}
